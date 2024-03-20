@@ -1,6 +1,6 @@
 # Socialcap Docs
 
-General documentation for the `docs.socialcapp.app` site
+Index to documentation and the `docs.socialcapp.app` site builder
 
 ## Videos
 
@@ -25,5 +25,7 @@ General documentation for the `docs.socialcapp.app` site
 
 ### Community Admin Features Overview
 [![Community Admin Features Overview](https://cdn.loom.com/sessions/thumbnails/379b3ed246fc45c182db5152c9de0982-with-play.gif)](https://www.loom.com/share/379b3ed246fc45c182db5152c9de0982)
-# docs
+
+## Site
+
 The `docs.socialcapp.app` builder
