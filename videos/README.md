@@ -1,8 +1,4 @@
-# Socialcap Docs
-
-Index to documentation and the `docs.socialcapp.app` site builder
-
-## Videos
+# Socialcap tutorial videos
 
 ### Introduction to Socialcap
 [![Intro](https://img.youtube.com/vi/xiHZKn8yCzg/0.jpg)](https://www.youtube.com/watch?v=xiHZKn8yCzg)

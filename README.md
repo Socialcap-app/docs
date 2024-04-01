@@ -4,6 +4,8 @@ Index to documentation and the `docs.socialcapp.app` site builder
 
 ## Videos
 
+The [Videos folder](https://github.com/Socialcap-app/socialcap-docs/tree/main/videos) contains tutorials and how to use Socialcap.
+
 ## Site
 
 The `docs.socialcapp.app` builder
