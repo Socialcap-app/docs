@@ -1,6 +1,6 @@
 # Socialcap Docs
 
-Index to documentation and the `docs.socialcapp.app` site builder
+Index to ALL the Socialcap documentation.
 
 ## Videos
 
@@ -8,8 +8,9 @@ The [Videos folder](https://github.com/Socialcap-app/socialcap-docs/tree/main/vi
 
 ## Site
 
-The [site folder](https://github.com/Socialcap-app/socialcap-docs/tree/main/site) contains the `docs.socialcapp.app` site builder with Docusaurus.
+The [site folder](https://github.com/Socialcap-app/socialcap-docs/tree/main/site) contains the `docs.socialcap.app` site builder with Docusaurus.
 
 ## Internal
 
 The [internal folder](https://github.com/Socialcap-app/socialcap-docs/tree/main/internal) contains internal documentation that can also be seen by the public.
+
