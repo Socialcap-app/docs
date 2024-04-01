@@ -3,7 +3,6 @@
 ### Introduction to Socialcap
 [![Intro](https://img.youtube.com/vi/xiHZKn8yCzg/0.jpg)](https://www.youtube.com/watch?v=xiHZKn8yCzg)
 
-
 ### Quick Overview and Sign Up Tutorial
 [![Quick Overview and Sign Up Tutorial](https://img.youtube.com/vi/MQf6BfXzftY/0.jpg)](https://www.youtube.com/watch?v=MQf6BfXzftY)
 
