@@ -1,0 +1,17 @@
+mario:
+  name: Mario Zito
+  title: Socialcap cofounder
+  url: https://github.com/mazito
+  image_url: https://github.com/endiliey.png
+
+leandro:
+  name: Leandro Manzanal
+  title: Socialcap cofounder
+  url: https://github.com/leomanza
+  image_url: https://github.com/yangshun.png
+
+mariana:
+  name: Sébastien Lorber
+  title: Docusaurus maintainer
+  url: https://sebastienlorber.com
+  image_url: https://github.com/slorber.png
