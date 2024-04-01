@@ -19,10 +19,3 @@
 ### Community Admin Features Overview
 [![Community Admin Features Overview](https://cdn.loom.com/sessions/thumbnails/379b3ed246fc45c182db5152c9de0982-with-play.gif)](https://www.loom.com/share/379b3ed246fc45c182db5152c9de0982)
 
-## Site
-
-The `docs.socialcapp.app` builder
-
-## Internal
-
-The `internal` folder contains internal documentation that can also be seen by the public.

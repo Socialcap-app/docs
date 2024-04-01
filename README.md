@@ -8,8 +8,8 @@ The [Videos folder](https://github.com/Socialcap-app/socialcap-docs/tree/main/vi
 
 ## Site
 
-The `docs.socialcapp.app` builder
+The [site folder](https://github.com/Socialcap-app/socialcap-docs/tree/main/site) contains the `docs.socialcapp.app` site builder with Docusaurus.
 
 ## Internal
 
-The `internal` folder contains internal documentation that can also be seen by the public.
+The [internal folder](https://github.com/Socialcap-app/socialcap-docs/tree/main/internal) contains internal documentation that can also be seen by the public.
