@@ -8,7 +8,7 @@ The [Videos folder](https://github.com/Socialcap-app/socialcap-docs/tree/main/vi
 
 ## Site
 
-The [site folder](https://github.com/Socialcap-app/socialcap-docs/tree/main/site) contains the `docs.socialcap.app` site builder with Docusaurus.
+The [site folder](https://github.com/Socialcap-app/socialcap-docs/tree/main/site) contains the `docs.socialcap.dev` site builder with Docusaurus.
 
 ## Internal
 
