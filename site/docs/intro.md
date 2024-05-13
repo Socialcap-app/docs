@@ -2,46 +2,31 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Socialcap Tutorial
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover **Socialcap in less than 5 minutes**.
+
+## The app
+
+- The new [Socialcap App (v2)](https://my-socialcap-dev.vercel.app/)
+
+- The previous [Socialcap App (v1)](https://my.socialcap.dev//)
 
 ## Getting Started
 
-Get started by **creating a new site**.
+- [What is Socialcap](videos/intro)
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+- Get started by [Signing Up](videos/signup). 
 
-### What you'll need
+- Learn how to [Claim Your Credential](videos/claim.md)
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- Understand how to [Fill your Claim Submission Form](videos/fill-form.md)
 
-## Generate a new site
+## Are you a community admin ?
 
-Generate a new Docusaurus site using the **classic template**.
+- See here how to [Admin your Community](videos/admin.md)
 
-The classic template will automatically be added to your project after you run the command:
+## Are you an elector ?
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+- Learn how to [Submit Votes](videos/submit-votes.md)
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.

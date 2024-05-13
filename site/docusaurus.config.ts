@@ -4,11 +4,11 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Socialcap Docs',
-  tagline: 'Community Credentials are yours',
+  tagline: 'The Social Consensus layer',
   favicon: 'img/favicon.png',
 
   // Set the production url of your site here
-  url: 'https://docs.socialcap.app',
+  url: 'https://docs.socialcap.dev',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -37,8 +37,8 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -61,7 +61,7 @@ const config: Config = {
       title: ':',
       logo: {
         alt: 'Socialcap Logo',
-        src: 'img/socialcap-logo-blue.svg',
+        src: 'img/socialcap_logotype.svg'
       },
       items: [
         {
@@ -82,20 +82,15 @@ const config: Config = {
           position: 'left',
           label: 'Videos',
         },
-        { 
-          to: '/blog', 
-          label: 'Blog', 
-          position: 'left' 
-        },
         {
           type: 'search',
-          position: 'left',
-        },        
-        {
-          href: 'https://github.com/socialcap-app/docs',
-          label: 'GitHub',
           position: 'right',
-        },
+        },        
+        // {
+        //   href: 'https://github.com/socialcap-app/docs',
+        //   label: 'GitHub',
+        //   position: 'right',
+        // },
       ],
     },
     footer: {
@@ -105,7 +100,7 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Introduction',
               to: '/docs/intro',
             },
           ],
@@ -113,30 +108,30 @@ const config: Config = {
         {
           title: 'Community',
           items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
+            // {
+            //   label: 'Stack Overflow',
+            //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+            // },
             {
               label: 'Discord',
               href: 'https://discordapp.com/invite/docusaurus',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/socialcap_',
             },
           ],
         },
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
+            // {
+            //   label: 'Blog',
+            //   to: '/blog',
+            // },
             {
               label: 'GitHub',
-              href: 'https://github.com/socialcap-app/docs',
+              href: 'https://github.com/socialcap-app',
             },
           ],
         },

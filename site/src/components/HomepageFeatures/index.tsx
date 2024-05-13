@@ -8,34 +8,43 @@ type FeatureItem = {
   description: JSX.Element;
 };
 
+
 const FeatureList: FeatureItem[] = [
+  // {
+  //   title: 'Features',
+  //   Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+  //   description: (
+  //     <>
+  //       Ver src/components/HomePageFeatures
+  //     </>
+  //   ),
+  // },
   {
-    title: 'Easy to Use',
+    title: 'Power up your community',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Supercharge your community's potential by leveraging the collective 
+        wisdom and trust of its members. 
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Build Social Consensus',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Ensure that every decision reflects the collective will with multiple 
+        voting strategies. 
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Fuel Engagement, Foster Growth',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Utilize rigorously validated credentials to reshape community interaction.
       </>
     ),
   },
