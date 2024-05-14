@@ -1,5 +1,6 @@
 
 # Introduction
+![intro brand image](../../static/img/sc-brand-manual.png "Socialcap")
 
 In the era of modular blockchain technologies, where specific layers are designed to serve distinct functions, such as data availability or restaking, Socialcap introduces a novel component—the "social consensus layer." 
 
