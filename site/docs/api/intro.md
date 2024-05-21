@@ -1,8 +1,8 @@
-# API  resources & methods
+# API Index
 
-## General conventions
+## Introduction
 
-We follow the [JSON-RPC 2.0](https://www.jsonrpc.org/specification) convention (as used in [tRPC/HTTP RPC Specification](https://trpc.io/docs/rpc) for all its endpoints. Besides that all API requests follow usual HTTP API conventions. 
+We follow the [JSON-RPC 2.0](https://www.jsonrpc.org/specification) convention (as used in [tRPC/HTTP RPC Specification](https://trpc.io/docs/rpc)) for all its endpoints. Besides that all API requests follow usual HTTP API conventions. 
 
 We can divide this into two categories:
 
@@ -15,11 +15,11 @@ We can divide this into two categories:
 - `Accept` : is always `application/json`.
 
 - `Content-type` : is always `application/json`.
-- `Authorization`: when required it MUST contain a JSON Web Token (JWT)) associated to the user session, in the format "Bearer AUTHORIZATION_TOKEN"
+- `Authorization`: when required it MUST contain a JSON Web Token (JWT) associated to the user session, in the format "Bearer $\{AUTHORIZATION_TOKEN\}"
 
 #### Requests, Responses and Errors
 
-- All endpoints are of the form `/api/query/method}?params=...` or `/api/mutation/method`.
+- All endpoints are of the form `/api/query/${method}?params=...` or `/api/mutation/${method}`.
 
 - All GET requests query params are JSON stringified.
 
@@ -29,17 +29,17 @@ We can divide this into two categories:
 
 - All error responses follow a common format and error codes described below.
 
-### Query requests
+## Query requests
 
 **Request**: 
 
 - HTTP Method: `GET`
-- Endpoint:  `/api/query/method}`
-- All the function call params are JSON-stringified in a query parameter `?params` as `encodeURIComponent(JSON.stringify(callParams))`. 
+- Endpoint:  `/api/query/${method}`
+- All the function call params are JSON-stringified in a query parameter `?params` as `${encodeURIComponent(JSON.stringify(callParams))`. 
 
 The resulting request will be formed using:
 
-- Url: `/api/query/method}?params=encodeURIComponent(JSON.stringify(callParams))}`
+- Url: `/api/query/${method}?params=${encodeURIComponent(JSON.stringify(callParams))}`
 
 Example:
 
@@ -49,7 +49,7 @@ Example:
 
 All Query responses are in JSON format, with the structure defined by each relevant request.
 
-```
+~~~typescript
 class QueryResponse {
   result: {
    	start: number, 
@@ -65,21 +65,21 @@ class QueryResponse {
     data: Map<string,string> // // Extra, customizable, meta data
 	}
 }
-```
+~~~
 
 On success a HTTP status code `200` is returned, `result !== null ` and `error === null `.
 
-### Mutation requests
+## Mutation requests
 
 **Request**: 
 
 - HTTP Method: `POST`
-- Endpoint:  `/api/mutation/method}`
+- Endpoint:  `/api/mutation/${method}`
 - All the function call params are included in the body payload 
 
 The resulting request will be formed using:
 
-- Url: `/api/mutation/method}`
+- Url: `/api/mutation/${method}`
 - Body: `{...callParams}`
 
 Example:
@@ -88,20 +88,20 @@ Example:
 
 - Body (payload): 
 
-```
-{
-  name: "Jaranita DAO",// a Unique name for this community
-  description: "A DAO full of lazy devs",
-  logo: "data:image/png;base64,iVBAA...kJggg==",
-  creator_id: "B62qpH...iqYAm", // AccountId of persona creating this community
-}
-```
+  ~~~ typescript
+  {
+    name: "Jaranita DAO",// a Unique name for this community
+    description: "A DAO full of lazy devs",
+    logo: "data:image/png;base64,iVBAA...kJggg==",
+    creator_id: "B62qpH...iqYAm", // AccountId of persona creating this community
+  }
+  ~~~
 
 **Response**:
 
 All Mutation responses are in JSON format, , with the structure for `data` defined by each relevant request.
 
-```
+~~~typescript
 class QueryResponse {
   result: {
     data: Any // a data object return by the server
@@ -112,7 +112,38 @@ class QueryResponse {
     data: Map<string,string> // // Extra, customizable, meta data
 	}
 }
-```
+~~~
 
 On success a HTTP status code `200` is returned, `result !== null ` and `error === null `.
 
+## Errors
+
+When on error  a HTTP error status code is returned, `result === null ` and `error !== null `. 
+
+Where `error` contains:
+
+-  `code` is always an HTTP Status code, as described in [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes).
+- `message` is a descriptive text message relevant to the request.
+-  `data` is a Map of additional information setup by the server.
+
+An the  error `code`will be in one of this categories:
+
+**What are you talking about?**
+
+- PARSE_ERROR: 400,
+- BAD_REQUEST: 400
+- NOT_FOUND: 404
+- METHOD_NOT_SUPPORTED: 405
+- CONFLICT: 409,
+- PRECONDITION_FAILED: 412
+- PAYLOAD_TOO_LARGE: 413
+
+**Who are you? Not for you ...**
+
+- UNAUTHORIZED: 401
+- FORBIDDEN: 403
+
+**Ups ! I have shamely failed ...** 
+
+- TIMEOUT: 408,
+- INTERNAL_SERVER_ERROR: 500,
