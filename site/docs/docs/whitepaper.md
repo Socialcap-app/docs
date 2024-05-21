@@ -26,22 +26,6 @@ We delve into the current state of the art, definitions, architecture and  forec
 
 **Credentials and formalized decisions**: We continue by defining credentials, how they can be used within a voting system and as a "proved formalized outcome" of a "social consensus" decision.
 
-
-
-## Conclusions
-
-From the previous work we can extract the following conclusions:
-
-We established that **social consensus is never total and neither is it static. We might say that social consensus should be thought of as a series of dynamic social relations . In particular, in "reduced" communities or social groups organized around common interests, unlike a society in broad terms, being part of these communities implies a high degree of awareness in accepting the norms by its members** 
-
-We asserted that **the validity of any voting system is founded in the social and never in the individual. Any voting system, no matter how imperfect or irrational, will be valid if a community accepts it as a tool to express the will of a group of people regarding an issue or candidate**.
-
-We derived a scoped definition for Socialcap consensus as: **a community-based agreement on an issue or candidate, achieved through either a direct or delegated voting process. This process employs any of the voting strategies available on the platform, specifically tailored for the particular issue or candidate. The consensus is then formalized by issuing an immutable blockchain-based credential, ensuring transparency and permanence of the agreement.**
-
-
-
-
-
 ## A sociological perspective
 
 Since the beginnings of Sociology, the tension between "the individual and the social," "integration and conflict," has been among the main inquiries among those theories we can recognize as "founding" the social field. Notable theorists include Emile Durkheim, Karl Marx, Max Weber, and George Simmel, to name a few. 
@@ -145,7 +129,13 @@ The implementation of "one member, one vote" by the Rochdale Pioneers was an ear
 
 **"One identity, one vote"** 
 
-!!! TODO !!! -> Identity voting 
+Identity in the digital world is quite a challenging point, without a stablished solution. This implies that is difficult to securely establish both the relation from a real person to a given digital identity, as well as the uniquenes of this relationship.
+
+The following article from Vitalik Buterin reflects on this point: [What do I think about biometric proof of personhood? (2023 Jul 24)](https://vitalik.eth.limo/general/2023/07/24/biometric.html). Buterin final words assert to this challenge "The problem of making a proof-of-personhood system that is effective and reliable, especially in the hands of people distant from the existing crypto community, seems quite challenging. I definitely do not envy the people attempting the task, and it will likely take years to find a formula that works. The concept of proof-of-personhood in principle seems very valuable, and while the various implementations have their risks, not having any proof-of-personhood at all has its risks too: a world with no proof-of-personhood seems more likely to be a world dominated by centralized identity solutions, money, small closed communities, or some combination of all three. I look forward to seeing more progress on all types of proof of personhood, and hopefully seeing the different approaches eventually come together into a coherent whole."
+
+But, as we previosuly discussed regarding the problems with token voting, the corresponding "one man one vote principle" still holds, and it depends on solving the "one person, one unique digital identity" problem. 
+
+This requires much more future work and research, but (as already noted in the refered article) in the particular caso of communities, using "social consensus" (or "social graphs based solutions") can be an effective solutions in many communities, and a reliable "proof of personhood", suitable to solve the "one identity, one vote" issue.
 
 **Token Voting**
 
@@ -178,15 +168,13 @@ This definition implies the following assumptions:
 6. Community Acceptance: There is an assumed consensus within the community regarding not only the outcomes but also the process itself, including the use of blockchain-based credentials to validate and formalize decisions. This assumes a significant level of digital literacy and acceptance of digital technologies among all community members.
 7. Secret Voting and Privacy: By using Zero-Knowledge Proofs, the voting process remains confidential and private, enabling the verification of votes without revealing the voter's choices. This preserves the secrecy and privacy of the process, protecting voter information from coercion, influence, or external scrutiny, and ensuring a genuinely free and fair voting environment while maintaining robust security measures.
 
-## Credentials and formalized decisions
+## Conclusions
 
+We established that **social consensus is never total and neither is it static. We might say that social consensus should be thought of as a series of dynamic social relations . In particular, in "reduced" communities or social groups organized around common interests, unlike a society in broad terms, being part of these communities implies a high degree of awareness in accepting the norms by its members** 
 
+We asserted that **the validity of any voting system is founded in the social and never in the individual. Any voting system, no matter how imperfect or irrational, will be valid if a community accepts it as a tool to express the will of a group of people regarding an issue or candidate**.
 
-
-
-
-
-
+We derived a scoped definition for Socialcap consensus as: **a community-based agreement on an issue or candidate, achieved through either a direct or delegated voting process. This process employs any of the voting strategies available on the platform, specifically tailored for the particular issue or candidate. The consensus is then formalized by issuing an immutable blockchain-based credential, ensuring transparency and permanence of the agreement.**
 
 ---
 
