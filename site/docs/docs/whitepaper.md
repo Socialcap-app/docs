@@ -127,16 +127,6 @@ This principle differed from other types of governance in businesses at the time
 
 The implementation of "one member, one vote" by the Rochdale Pioneers was an early and influential application of democratic equality principles in economic enterprises, predating many political applications of similar principles.
 
-**"One identity, one vote"** 
-
-Identity in the digital world is quite a challenging point, without a stablished solution. This implies that is difficult to securely establish both the relation from a real person to a given digital identity, as well as the uniquenes of this relationship.
-
-The following article from Vitalik Buterin reflects on this point: [What do I think about biometric proof of personhood? (2023 Jul 24)](https://vitalik.eth.limo/general/2023/07/24/biometric.html). Buterin final words assert to this challenge "The problem of making a proof-of-personhood system that is effective and reliable, especially in the hands of people distant from the existing crypto community, seems quite challenging. I definitely do not envy the people attempting the task, and it will likely take years to find a formula that works. The concept of proof-of-personhood in principle seems very valuable, and while the various implementations have their risks, not having any proof-of-personhood at all has its risks too: a world with no proof-of-personhood seems more likely to be a world dominated by centralized identity solutions, money, small closed communities, or some combination of all three. I look forward to seeing more progress on all types of proof of personhood, and hopefully seeing the different approaches eventually come together into a coherent whole."
-
-But, as we previosuly discussed regarding the problems with token voting, the corresponding "one man one vote principle" still holds, and it depends on solving the "one person, one unique digital identity" problem. 
-
-This requires much more future work and research, but (as already noted in the refered article) in the particular caso of communities, using "social consensus" (or "social graphs based solutions") can be an effective solutions in many communities, and a reliable "proof of personhood", suitable to solve the "one identity, one vote" issue.
-
 **Token Voting**
 
 In addition to traditional voting systems, token voting represents a novel approach enabled by blockchain technology. This method involves the distribution of tokens to community members, who then use these tokens to cast votes on various decisions. The weight of each vote is often determined by the number of tokens a member holds, which can theoretically align voting power with stakeholder investment in the community.
@@ -151,6 +141,16 @@ However, token voting (as opposed to the "one member, one vote" schema), comes w
 Despite these challenges, token voting can still be an effective tool when integrated into a broader framework of social consensus. It requires careful design to ensure that it complements existing decision-making structures and adheres to the principles of fairness and inclusivity. For instance, mechanisms such as delegating voting rights or introducing caps on the influence of large token holders can help mitigate some of the issues associated with direct token voting.
 
 As has been already pointed, the community's acceptance of the voting mechanism is crucial. It implies a preliminary consensus on the norms and rules of the election process, which in turn validates the use of token voting as a legitimate method to express collective will.
+
+**"One identity, one vote"** 
+
+Identity in the digital world is quite a challenging point, without a stablished solution. This implies that is difficult to securely establish both the relation from a real person to a given digital identity, as well as the uniquenes of this relationship.
+
+The following article from Vitalik Buterin reflects on this point: [What do I think about biometric proof of personhood? (2023 Jul 24)](https://vitalik.eth.limo/general/2023/07/24/biometric.html). Buterin final words assert to this challenge "The problem of making a proof-of-personhood system that is effective and reliable, especially in the hands of people distant from the existing crypto community, seems quite challenging. I definitely do not envy the people attempting the task, and it will likely take years to find a formula that works. The concept of proof-of-personhood in principle seems very valuable, and while the various implementations have their risks, not having any proof-of-personhood at all has its risks too: a world with no proof-of-personhood seems more likely to be a world dominated by centralized identity solutions, money, small closed communities, or some combination of all three. I look forward to seeing more progress on all types of proof of personhood, and hopefully seeing the different approaches eventually come together into a coherent whole."
+
+But, as we previosuly discussed regarding the problems with token voting, the corresponding "one man one vote principle" still holds, and it depends on solving the "one person, one unique digital identity" problem. 
+
+This requires much more future work and research, but (as already noted in the refered article) in the particular case of communities, using "social consensus" (or "social graphs based solutions") can be an effective solutions in many communities, and a reliable "proof of personhood", suitable to solve the "one identity, one vote" issue.
 
 ## A scoped definition of social consensus
 
